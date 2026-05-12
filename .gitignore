@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files
+# Raw and processed datasets are excluded to avoid large files
+# and potential redistribution/license issues.
+data/raw/
+data/processed/
+
+# Local database files
+*.duckdb
+*.db
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
